@@ -29,7 +29,7 @@
     height: 150px;
     width: 150px;
     border: 1px solid #000000;
-    background-color: #1aeaa5;
+    background-color: #1aeaa5a2;
 }
 
 .enemy{
@@ -47,4 +47,41 @@
 .menu-time h2:nth-child(2), 
 .menu-score h2:nth-child(2){
     margin-top: 1rem;
+}
+
+@media(max-width: 768px){
+    .container{
+        height: 50vh;
+    }
+
+    .menu{
+        height: 90px;
+        width: 100%;
+        border-bottom: 5px solid #ffd700;
+    }
+
+    .square{
+        height: 80px;
+        width: 80px;
+    }
+
+}
+
+@media(max-width: 480px){
+
+    .container{
+        height: 50vh;
+    }
+
+    .menu{
+        height: 90px;
+        width: 100%;
+        border-bottom: 5px solid #ffd700;
+    }
+
+    .square{
+        height: 80px;
+        width: 80px;
+    }
+
 }
